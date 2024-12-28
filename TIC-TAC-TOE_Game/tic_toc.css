@@ -1,0 +1,62 @@
+* {
+  padding: 0px;
+  margin: 0;
+  /* box-sizing: border-box;*/
+}
+body {
+  background-color: thistle;
+  text-align: center;
+}
+.container {
+  height: 70vh;
+  /*   width: 70vh;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 32px;
+  border: none;
+  font-size: 8vmin;
+  color: royalblue;
+  background-color: brown;
+}
+#res1 {
+  width: 110px;
+  height: 30px;
+  background-color: rebeccapurple;
+  color: white;
+  font-size: medium;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+#new1 {
+  width: 110px;
+  height: 30px;
+  background-color: rebeccapurple;
+  color: white;
+  font-size: medium;
+  border-radius: 10px;
+}
+#msg {
+  color: black;
+  font-size: 5vmin;
+  margin-bottom: 10px;
+}
+.sms-container {
+  height: 30vmin;
+}
+.hide {
+  display: none;
+}
